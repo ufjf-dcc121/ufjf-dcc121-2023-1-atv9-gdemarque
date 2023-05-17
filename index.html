@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semana 9: Forms</title>
     <style>
-        p>span {
+        
+        .pessoa>div{
+            display: inline;
             color: darkgreen;
+        }
+        div.sobrenome{
+            color: darkblue;
+        }
+        .pessoa>.idade{
+            color:darkred;
+        }
+        .sobrenome::before{
+            content: ' ';
+        }
+        .idade::before{
+            content: ', ';
         }
     </style>
 </head>
